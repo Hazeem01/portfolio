@@ -1,24 +1,69 @@
+#logo{
+  font-size: 50px;
+  font-style: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+  position: fixed;
+  top:1%;
+  left:5%;
+  background-color: rgb(235, 208, 173);
+}
+
+#welcome{
+  margin-left: 30%;
+  font-size: 45px;
+}
+
 #navbar{
   position: fixed;
   top: 0%;
+  right: 0%;
+}
+
+a{
   text-decoration: none;
+  color: rgb(248, 176, 81);
 }
 
 body{
   background-image: url(images/berkeley-communications-EWcq96cHGrk-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  color: rgb(189, 132, 58);
 }
 
 section{
   align-items: center;
   padding-top: 5%;
   padding-left: 30%;
+  width: 50vh;
 }
 
 @media screen{
 }
 
 #welcome-section{
-  height: 100vh;
+  height: 5git0vh;
+  color: rgb(124, 73, 7);
+  font-size: 20px;
+}
+
+footer{
+  bottom: 0%;
+  display: inline-block;
+}
+
+#to-top{
+  bottom: 0%;
+  right: 0%;
+  position: fixed;
+}
+
+#projects li{
+  list-style: circle;
+  font-family: fantasy;
+}
+
+h1{
+  color: rgb(180, 107, 12);
+  font-size: 50px;
 }
