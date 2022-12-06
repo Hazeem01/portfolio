@@ -14,6 +14,7 @@
 }
 
 #navbar{
+  text-decoration: none;
   position: fixed;
   top: 0%;
   right: 0%;
@@ -21,7 +22,6 @@
 }
 
 a{
-  text-decoration: none;
   color: rgb(151, 107, 48);
 }
 
@@ -71,5 +71,9 @@ h1{
 }
 
 .project-description{
+  color: rgb(240, 149, 46);
+}
+
+.certificate-description{
   color: rgb(240, 149, 46);
 }
