@@ -5,6 +5,7 @@
   position: fixed;
   top:1%;
   left:5%;
+  opacity: 0.6;
   background-color: rgb(235, 208, 173);
 }
 
@@ -119,8 +120,12 @@ h1{
   color: rgb(240, 149, 46);
 }
 
-@media (max-width: 700px) {
-  body{
-    display: block;
+@media (max-width: 800px ) {
+  #logo{
+    left: 0%;
+  }
+  #navbar{
+    right: 0%;
+    opacity: 0.8;
   }
 }
