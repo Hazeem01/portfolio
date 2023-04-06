@@ -14,12 +14,6 @@
   <header>
 
     <div id="welcome">WELCOME TO MY PORTFOLIO !</div>
-    <div id="logo"><i class="fa-solid fa-h fa-beat"></i><i class="fa-solid fa-a fa-beat"
-        style="--fa-animation-iteration-count: 10;"></i><i class="fa-solid fa-z fa-beat"
-        style="--fa-animation-iteration-count: 8;"></i><i class="fa-solid fa-e fa-beat"
-        style="--fa-animation-iteration-count: 6;"></i><i class="fa-solid fa-e fa-beat"
-        style="--fa-animation-iteration-count: 4;"></i><i class="fa-solid fa-m fa-beat"
-        style="--fa-animation-iteration-count: 2;"></i></div>
 
     <nav id="navbar">
       <button onclick=displayContent() class="navbar-button"><i class="fa-solid fa-bars"></i></button>
@@ -40,7 +34,7 @@
           <li> <a href="#skills"><i class="fa-solid fa-wrench"></i> Skills</a> </li>
           <li> <a href="#projects"><i class="fa-solid fa-road-barrier"></i> My Projects</a> </li>
           <li> <a href="#certifications"><i class="fa-solid fa-certificate"></i> My Certifications</a> </li>
-          <li> <a href="https://drive.google.com/file/d/1KVJs6MnsIXWL9Gya6o4MjhVbUi4DAgRL/view?usp=sharing"><i
+          <li> <a href="https://drive.google.com/file/d/1n827529_Sem-zQcyTuQuT-ek-V8bLrwz/view?usp=sharing"><i
                 class="fa-solid fa-magnifying-glass"></i> View
               My Resume</a> </li>
           <li> <a id="contact-button" onclick=displayContacts()><i class="fa-solid fa-address-book"></i> Connect with
@@ -64,13 +58,31 @@
       </div>
     </nav>
   </header>
+  <nav id="left-nav">
+    <img id="profile-pic" src="./images/profile.JPG" alt="Profile Pics">
+    <div id="logo"><i class="fa-solid fa-h fa-beat"></i><i class="fa-solid fa-a fa-beat"
+      style="--fa-animation-iteration-count: 10;"></i><i class="fa-solid fa-z fa-beat"
+      style="--fa-animation-iteration-count: 8;"></i><i class="fa-solid fa-e fa-beat"
+      style="--fa-animation-iteration-count: 6;"></i><i class="fa-solid fa-e fa-beat"
+      style="--fa-animation-iteration-count: 4;"></i><i class="fa-solid fa-m fa-beat"
+      style="--fa-animation-iteration-count: 2;"></i>
+  </div>
+  <div id="info">
+    <p class="info">
+      <i class="fa-brands fa-square-js fa-2xl"></i>
+      <i class="fa-brands fa-node fa-2xl"></i>
+      <i class="fa-brands fa-node-js fa-2xl"></i>
+      <i class="fa-brands fa-react fa-2xl"></i>
+    </p>
+    <P class="info"><i class="fa-solid fa-location-dot"></i> Lagos, Nigeria</p>
+  </div>
+  </nav>
   <section id="welcome-section">
     <h1> Abdulhazeem </h1>
     <ul>
       <li>A <a href="https://www.microverse.org/" target="_blank">Microverse</a> Alumni</li>
-      <li>An intern at <a href="https://www.devcareer.io/" target="_blank"> DevCareer Africa</a></li>
+      <li>Former intern at <a href="https://www.devcareer.io/" target="_blank"> DevCareer Africa</a></li>
       <li>A Software Developer</li>
-      <li>A Nigerian</li>
     </ul>
 
   </section>
@@ -78,9 +90,13 @@
   <section id="about">
     <h1> About Me </h1>
     <div>
-      I'm Hazeem, a programmer from Lagos, Nigeria. I am a prospective software engineering student.
-      I come from a family of 5, I enjoy listening to music, coding, watching tecnology documentries and connecting with
-      friends. Thanks for checking out my Portfolio
+      Hi 👋🏾, I'm Hazeem, a NodeJs backend engineer from Lagos, Nigeria <br>
+      I am very interested in working on projects that are used by and benefit large number of people. <br>
+      I just completed my role as a Backend Intern at DevCareer Africa and I have had past experiences with working
+      remotely. With my previous remote working experiences, I understand the remote work setting and how it works. I
+      also have experience using python. <br>
+      The tools I use include but not limited to: Git, Visual Studio Code, NodeJs, MongoDB Atlas, PgAdmin etc. <br>
+      I have great interest in music, technology, coding, and networking. Thanks for checking out my Portfolio !
     </div>
   </section>
 
@@ -117,12 +133,18 @@
   <section id="projects">
     <h1 class="project-tile">Projects By Hazeem</h1>
     <ol>
-      <li><a target="_blank" href="https://github.com/Hazeem01/bank-app"> Web Bank Application </a></li>
-      <p class="project-description">This is a project currently on development. It is my first full-stack project where
-        I am putting forward my frontend and backend knowledge to produce a web bank application system that currently
+      <li>
+        Web Bank Application (Bank 360)
+        <ul>
+          <li><a target="_blank" href="https://github.com/Hazeem01/bank360-api"> Application API </a></li>
+          <li><a target="_blank" href="https://github.com/Hazeem01/bank360"> Application Frontend </a></li>
+        </ul>
+      </li>
+      <p class="project-description">This project is titled Bank 360 and currently on development. It is my first
+        full-stack project where
+        React and NodeJs is used to produce a web bank application system that currently
         supports user registration, sign in, password reset. The application is also going to be providing users with
-        other
-        features a bank app should. </p>
+        other common bank application features. </p>
       <li><a target="_blank" href="https://github.com/Hazeem01/login-signup/"> Login-Signup API </a></li>
       <p class="project-description">This is an API that allows a user to signup on a server and log in to the same
         server using the informations provided during signup and lastly, reset password. This REST API is supported with
@@ -137,28 +159,70 @@
       <li><a target="_blank" href="https://hazeem01.github.io/Legacy-Responsive/"> Volunteer form </a></li>
       <p class="project-description">A random volunteer form page.</p>
       <li><a target="_blank" href="https://hazeem01.github.io/portfolio/"> Abdulhazeem's Portfolio </a></li>
-      <p class="project-description" > Of course! This portfolio is also a project of mine. I believe other developers and non developers can get to 
-          know me through my portfolio.</p>
+      <p class="project-description"> Of course! This portfolio is also a project of mine. I believe other developers
+        and non developers can get to
+        know me through my portfolio.</p>
     </ol>
   </section>
 
   <section id="certifications">
     <h1 class="certificate-tile">My Certifications</h1>
-    <ol>
-      <li><a target="_blank" href="https://www.sololearn.com"> sololearn.com </a></li>
-      <p class="certificate-description">Python skills</p>
-      <li>MasterCard Foundation, Jobberman, Young Africa Works</li>
-      <p class="certificate-description">Soft skills</p>
-      <li><a href="https://www.microverse.org/" target="_blank">Microverse</a>, San Fransisco</li>
-      <p class="certificate-description">Intro to Javascript.</p>
-      <li><a target="_blank" href="https://www.educative.io/verify-certificate/vgA3wPF27ANmQ8598hwQEQ86YoZ8tl">
-          Educative Inc, </a> <a href="http://educative.io" target="_blank"> educative.io</a></li>
-      <p class="certificate-description">Node JS.</p>
-    </ol>
+    <table>
+      <tr>
+        <th>Certificate Issuer</th>
+        <th>Certificate Name</th>
+        <th>Certificate</th>
+      </tr>
+      <tr>
+        <td><a target="_blank" href="https://www.sololearn.com"> sololearn.com </a></td>
+        <td class="certificate-description">Python Core</td>
+        <td>View Certificate <a target="_blank"
+            href="https://drive.google.com/file/d/19CcolUpWyPj6_pSpCRrBGelzdWsBBg2j/view?usp=share_link"><i
+              class="fa-solid fa-certificate"></i></a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.jobberman.com/softskills" target="_blank">Jobberman</a>, MasterCard Foundation, Young
+          Africa Works</td>
+        <td class="certificate-description">Jobberman Soft-Skills Training</td>
+        <td>View Certificate <a target="_blank"
+            href="https://drive.google.com/file/d/1qSwcN6Yw7lZCaPwJCFhiHt6Blauhp08J/view?usp=share_link"><i
+              class="fa-solid fa-certificate"></i></a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.microverse.org/" target="_blank">Microverse</a>, San Fransisco</td>
+        <td class="certificate-description">Intro To Remote Web Development</td>
+        <td>View Certificate <a target="_blank"
+            href="https://www.credential.net/aff17332-be6c-46e6-af69-41c577f39400#gs.u0yixu"><i
+              class="fa-solid fa-certificate"></i></a></td>
+      </tr>
+      <tr>
+        <td><a href="http://educative.io" target="_blank">Educative Inc</a></td>
+        <td class="certificate-description">Become a Node.js Developer</td>
+        <td>View Certificate <a target="_blank"
+            href="https://www.educative.io/verify-certificate/vgA3wPF27ANmQ8598hwQEQ86YoZ8tl"><i
+              class="fa-solid fa-certificate"></i></a></td>
+      </tr>
+      <tr>
+        <td><a href="http://educative.io" target="_blank">Educative Inc</a></td>
+        <td class="certificate-description">Backend API Development With Express</td>
+        <td>View Certificate <a target="_blank"
+            href="https://www.educative.io/verify-certificate/gk1kr8goERkF4OV262MBEPHyN6NKwkEPKUk"><i
+              class="fa-solid fa-certificate"></i></a></td>
+      </tr>
+      <tr>
+        <td><a href="http://educative.io" target="_blank">Educative Inc</a></td>
+        <td class="certificate-description">Learn NodeJs</td>
+        <td>View Certificate <a target="_blank"
+            href="https://www.educative.io/verify-certificate/765GMgiQDBpNBYRlvhA8k82KEq12t3"><i
+              class="fa-solid fa-certificate"></i></a></td>
+      </tr>
+    </table>
   </section>
 
   <footer>
     <div id="to-top"><a href="#welcome-section">Back to top</a></div>
+
+    <div id="copyright"><i class="fa-solid fa-heart" style="color: #f12c09;"></i> From Hazeem&reg;</div>
 
     <div class="contacts">
       <a target="_blank" class="profile-link" id="git-profile-link" href="https://github.com/Hazeem01"> <i
@@ -178,7 +242,6 @@
   </footer>
 </body>
 
-<!-- <script src="./index.js"></script> -->
 <script>
   alert("For best viewing experience, kindly open the page from a desktop computer. Thanks!");
   const navbarContent = document.getElementsByClassName("navbar-content")

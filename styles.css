@@ -1,53 +1,70 @@
-#logo{
-  font-size: 50px;
-  font-style: bold;
-  font-family: "Lucida Console", "Courier New", monospace;
-  position: fixed;
-  top:1%;
-  left:5%;
-  opacity: 0.6;
-  background-color: rgb(235, 208, 173);
+#logo {
+  margin-left: 20%;
+  font-size: 35px;
+  left: 2%;
 }
 
-#welcome{
+#profile-pic {
+  margin-top: 3%;
+  margin-left: 30%;
+  left: 30%;
+  width: 120px;
+  height: auto;
+  border-radius: 30%;
+}
+
+.info {
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+#left-nav {
+  opacity: 0.8;
+  background-color: rgb(235, 208, 173);
+  position: fixed;
+  top: 3%;
+  width: 20%;
+}
+
+#welcome {
   margin-left: 30%;
   font-size: 45px;
 }
 
-.fixed-nav{
+.fixed-nav {
   position: fixed;
   top: 40px;
-  right:1%;
-  
+  right: 1%;
+
 }
 
-#navbar{
+#navbar {
   position: fixed;
   top: 1%;
   right: 1%;
 }
 
-.navbar-button{
+.navbar-button {
   font-size: 20px;
   position: fixed;
   top: 20px;
-  right:1%;
+  right: 1%;
 }
 
-.navbar-content{
+.navbar-content {
   display: none;
   background-color: rgb(235, 208, 173);
 }
 
-a{
+a {
   color: rgb(151, 107, 48);
 }
 
-a:hover{
+a:hover {
   font-size: 25px;
 }
 
-body{
+body {
   background-image: url(images/berkeley-communications-EWcq96cHGrk-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,7 +72,7 @@ body{
   font-size: larger;
 }
 
-section{
+section {
   align-items: center;
   padding-top: 5%;
   padding-left: 30%;
@@ -63,43 +80,50 @@ section{
 }
 
 
-#welcome-section{
+#welcome-section {
   height: 5git0vh;
   color: rgb(124, 73, 6);
   font-size: 20px;
 }
 
-footer{
+footer {
   bottom: 0%;
   display: inline-block;
 }
 
-#to-top{
+#to-top {
   bottom: 0%;
   right: 0%;
   position: fixed;
 }
 
-#projects li{
+#projects li {
   list-style: circle;
   font-family: fantasy;
 }
 
-.contacts{
+.contacts {
   position: fixed;
   bottom: 0%;
 }
 
-.contacts a{
+.contacts a {
   text-decoration: none;
   font-size: 20px;
 }
 
-.contacts a:hover{
+.contacts a:hover {
   font-size: 30px;
 }
 
-#navbar-contacts{
+#copyright {
+  color: rgb(240, 176, 99);
+  position: fixed;
+  bottom: 0%;
+  margin-left: 40%;
+}
+
+#navbar-contacts {
   display: none;
   position: fixed;
   top: 27%;
@@ -107,24 +131,39 @@ footer{
   height: 20px;
 }
 
-h1{
+h1 {
   color: rgb(180, 107, 12);
   font-size: 50px;
 }
 
-.project-description{
+.project-description {
   color: rgb(240, 149, 46);
 }
 
-.certificate-description{
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: rgb(66, 38, 5);
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
   color: rgb(240, 149, 46);
 }
 
-@media (max-width: 800px ) {
-  #logo{
+@media (max-width: 800px) {
+  #logo {
     left: 0%;
   }
-  #navbar{
+
+  #navbar {
     right: 0%;
     opacity: 0.8;
   }
